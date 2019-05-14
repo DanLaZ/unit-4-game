@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.cs">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.cs">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
     <title>Collect The Chaos Emeralds</title>
@@ -18,8 +18,18 @@
     <!------------------------------------->
     <div class="mainContainer">
 
+        <!--Background Video-->
+        <div class="videoBackground">
+
+            <video autoplay loop muted>
+                <source class="videoSrc" src="assets/images/videoplayback.mp4" type="video/mp4" alt="Chaos Emerald Bonus levels">
+            </video>
+            
+        </div>
+
         <!--1.Header/Title-->
         <header class="headerContainer">
+            <img src="assets/images/h1GIF.gif" alt="Sonic 1 Start Game GIF">
             <h1 id="titleHeader">Collect The Chaos Emeralds</h1>
         </header>
 
@@ -46,19 +56,19 @@
             <div class="emeraldButtons">
 
                 <button id="redEmerald">
-                    <img src="assets/images/RedEmerald.gif" alt="Red Emeralds">
+                    <img src="assets/images/RedEmerald.gif" type="image/gif" alt="Red Emeralds">
                 </button>
 
                 <button id="blueEmerald">
-                    <img src="assets/images/BlueEmerald.gif" alt="Blue Emeralds">
+                    <img src="assets/images/BlueEmerald.gif" type="image/gif" alt="Blue Emeralds">
                 </button>
 
                 <button id="greenEmerald">
-                    <img src="assets/images/GreenEmerald.gif" alt="Green Emeralds">
+                    <img src="assets/images/GreenEmerald.gif" type="image/gif" alt="Green Emeralds">
                 </button>
 
                 <button id="purpleEmerald">
-                    <img src="assets/images/PurpleEmerald.gif" alt="Purple Emeralds">
+                    <img src="assets/images/PurpleEmerald.gif" type="image/gif" alt="Purple Emeralds">
                 </button>
 
             </div>
@@ -67,15 +77,16 @@
 
         <!--Story and Rules Section-->
         <article>
-
-            <h2 id="storyHeader"></h2>
-            <br>
-            <p id="story"></p>
-            <br>
-            <h2 id="rulesHeader">How to Play</h2>   
-            <br>
-            <p id="rules"></p>
-
+            
+            <div class="story_rulesContainer">
+                <h2 id="storyHeader">Story</    h2>
+                <br>
+                <p id="story"></p>
+                <br>
+                <h2 id="rulesHeader">How to     Play</h2>   
+                <br>
+                <p id="rules"></p>
+            </div>
         </article>
 
 
