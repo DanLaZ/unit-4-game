@@ -10,8 +10,8 @@ Design Start
 * html/css *
 - Content | Content centered -
 1.Header/title <h1>
-2.Instructions/Intro
-3.Number the player needs to reach | Wins/Losses(under goal num)
+2.Instructions/Intro 
+3.Number the player needs to reach | Wins/Losses(under numbers)
 4.Emerald Images
 5.Desired Number/Total Score header <h2>
 6.Number player currently has
@@ -21,22 +21,22 @@ Design Start
 2.
 - Explain that Sonic has to collect the rest of the Chaos Emeralds to become Super Sonic - 
 3.
-- Number to be reached can be styled like a Sonic start menu | Wins/Losses can be counted as rings -
+- Number to be reached can be styled like a Sonic starter menu | Wins/Losses can be counted as rings -
 4.
 - Use the 16-bit images (PhotoShop images) | 4 chaos emeralds (red, blue, green, purple) -
 5.
 - Starter menu style -
 6.
-- Have the background be a Chaos Emerald bonus level -
+- Currnet Number Player has will have a Starter Menu Style -
 * ---------------------------------------------------------------------------------------------------- *
 
 - Content Order/html Layout -
 * ----------------------------------- *
-1.
-5.
-3.|6. <Wins/Losses will be under 3 & 6> 
-4.
-2.
+1.Header/title
+5.Desired Number/Total Score header
+3.|6. Both Numbers <Wins/Losses will be under 3 & 6> 
+4.Emerald Images
+2.Instructions/Intro
 * ----------------------------------- *
 Design End
 <!-------->
