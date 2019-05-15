@@ -5,7 +5,6 @@ body {
     background-color: #6678e1;
 }
 
-
 /* Background Video Styles */
 /*------------------------------*/
 .mainContainer {
@@ -25,7 +24,7 @@ body {
 }
 
 video {
-    width: 1525px;
+    width: 1625px;
     height: 1100px;
 }
 
@@ -157,6 +156,37 @@ section div button img {
 
 /* Story and Rules Styles */
 /*------------------------------*/
+aside {
+    background-color: #6678e1;
+    bottom: 730px;
+    z-index: 2;
+    position: absolute;
+}
+
+.story_rulesContainer {
+    background-color: #6678e1;
+    padding-left: 35px;
+    padding-right: 96px;
+    width: 170px;   
+}
+
+aside div h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: white;
+    background-color: #d80216;
+    margin: 10px 0;
+}
+
+aside div p {
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    font-size: 1.05em;
+    font-stretch: semi-expanded;
+    font-weight: 200px;
+    letter-spacing: 0.02011em;
+
+}
 
 
 
