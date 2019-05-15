@@ -39,7 +39,7 @@ video {
 /*------------------------------*/
 .headerContainer {
     padding-bottom: 450px;
-    padding-left: 160px;
+    padding-left: 450px;
 }
 
 header img {
@@ -66,12 +66,12 @@ header img {
 
 .scoreContainerLeft {
     float: left;
-    padding-right: 300px;
+    padding-right: 25px;
 }
 
 .scoreContainerRight {
     float: right;
-    padding-left: 500px;
+    padding-left: 775px;
 }
 
 section div h2 {
@@ -114,6 +114,7 @@ section div h2 {
 
 #redEmerald, #blueEmerald, #greenEmerald, #purpleEmerald {
     position: absolute;
+    Margin: 20px;
 }
 
 button {
@@ -128,29 +129,25 @@ section div button img {
 
 #redEmerald {
     padding-top: 60px;
-    padding-left: 400px;
-    margin: 20px;
+    padding-left: 540px;
     z-index: 4;
 }
 
 #blueEmerald {
     padding-top: 60px;
-    padding-left: 275px;
-    margin: 20px;
+    padding-left: 415px;
     z-index: 5;
 }
 
 #greenEmerald {
     padding-top: 60px;
-    padding-left: 150px;
-    margin: 20px;
+    padding-left: 290px;
     z-index: 6;
 }
 
 #purpleEmerald {
     padding-top: 60px;
-    padding-left: 25px;
-    margin: 20px;
+    padding-left: 165px;
     z-index: 7;
 }
 
