@@ -1,9 +1,13 @@
 
+/* General Styles */
+/*------------------------------*/
 body {
     background-color: #6678e1;
 }
 
+
 /* Background Video Styles */
+/*------------------------------*/
 .mainContainer {
     position: relative;
     width: 100%;
@@ -18,22 +22,22 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    /* width: 100%; */
-    
 }
 
 video {
     width: 1525px;
     height: 1100px;
-     
 }
 
-.headerContainer, .scoreContainer, .buttonContainer, .story_rulesContainer, .footContainer {
+.headerContainer, .scoreContainerLeft, .scoreContainerRight, .buttonContainer, .story_rulesContainer, .footContainer {
     z-index: 1;
+    position: fixed;
+    padding-right: 142px;
 }
 
-/* Header GIF styles */
 
+/* Header GIF & h1 styles */
+/*------------------------------*/
 .headerContainer {
     padding-bottom: 450px;
     padding-left: 160px;
@@ -42,7 +46,6 @@ video {
 header img {
     width: 500px;
     height: 200px;
-    /* padding-bottom: 200px; */
 }
 
 #titleHeader {
@@ -52,42 +55,108 @@ header img {
     color: white;
     display: -ms-inline-flexbox;
     background-color: #d80216;
-
 }
 
 
+/* Score & Wins/Losses Styles */
+/*------------------------------*/
+.scoreContainerLeft, .scoreContainerRight {
+    z-index: 2;
+    display: block;
+}
 
+.scoreContainerLeft {
+    float: left;
+    padding-right: 300px;
+}
 
+.scoreContainerRight {
+    float: right;
+    padding-left: 500px;
+}
+
+section div h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: white;
+    background-color: #d80216;
+}
+
+.leftInfo {
+    text-align: center;
+}
+
+.rightInfo {
+    text-align: center;
+}
+
+#wins, #losses {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: white;
+    background-color: #d80216;
+    width: 100px;
+}
+
+#losses {
+    width: 120px;
+}
 
 
 /* Emerald Styles */
-
+/*------------------------------*/
 .buttonContainer {
-    display: inline-block;
+    z-index: 3;
 }
 
 .emeraldButtons {
-    width: 10px;
-    height: 10px;
+    width: 390px;
+}
+
+#redEmerald, #blueEmerald, #greenEmerald, #purpleEmerald {
+    position: absolute;
 }
 
 button {
     height: 100px;
     width: 100px;
-    position: relative;
 }
 
 section div button img {
     height: 50px;
     width: 50px;
-    /* align-content: center;  */
-    /* position: absolute; */
 }
-
 
 #redEmerald {
-    float: left;
+    padding-top: 60px;
+    padding-left: 400px;
+    margin: 20px;
+    z-index: 4;
 }
+
+#blueEmerald {
+    padding-top: 60px;
+    padding-left: 275px;
+    margin: 20px;
+    z-index: 5;
+}
+
+#greenEmerald {
+    padding-top: 60px;
+    padding-left: 150px;
+    margin: 20px;
+    z-index: 6;
+}
+
+#purpleEmerald {
+    padding-top: 60px;
+    padding-left: 25px;
+    margin: 20px;
+    z-index: 7;
+}
+
+/* Story and Rules Styles */
+/*------------------------------*/
 
 
 
