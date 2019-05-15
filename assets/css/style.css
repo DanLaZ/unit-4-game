@@ -1,9 +1,11 @@
 
+
 /* General Styles */
 /*------------------------------*/
 body {
     background-color: #6678e1;
 }
+
 
 /* Background Video Styles */
 /*------------------------------*/
@@ -54,6 +56,9 @@ header img {
     color: white;
     display: -ms-inline-flexbox;
     background-color: #d80216;
+    border-color: #6678e1;
+    border-radius: 50%;
+    text-align: center;
 }
 
 
@@ -79,6 +84,9 @@ section div h2 {
     font-size: 20px;
     color: white;
     background-color: #d80216;
+    border-color: #6678e1;
+    border-radius: 100%;
+    text-align: center;
 }
 
 .leftInfo {
@@ -95,6 +103,9 @@ section div h2 {
     color: white;
     background-color: #d80216;
     width: 100px;
+    border-color: #6678e1;
+    border-radius: 50%;
+    text-align: center;
 }
 
 #losses {
@@ -120,6 +131,19 @@ section div h2 {
 button {
     height: 100px;
     width: 100px;
+    border-radius: 50%;
+    background-color: #d80216;
+    text-decoration: none;
+    border: 0px;  
+}
+
+button:hover, button:focus {
+    background: #6678e1;
+}
+
+button:focus {
+    outline: 0.5px #fff;
+    outline-offset: -10px;
 }
 
 section div button img {
@@ -151,6 +175,7 @@ section div button img {
     z-index: 7;
 }
 
+
 /* Story and Rules Styles */
 /*------------------------------*/
 aside {
@@ -173,6 +198,9 @@ aside div h2 {
     color: white;
     background-color: #d80216;
     margin: 10px 0;
+    border-color: #6678e1;
+    border-radius: 50%;
+    text-align: center;
 }
 
 aside div p {
@@ -184,7 +212,6 @@ aside div p {
     letter-spacing: 0.02011em;
 
 }
-
 
 
 /* Footer Styles */
