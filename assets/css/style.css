@@ -1,4 +1,8 @@
 
+body {
+    background-color: #6678e1;
+}
+
 /* Background Video Styles */
 .mainContainer {
     position: relative;
@@ -31,12 +35,14 @@ video {
 /* Header GIF styles */
 
 .headerContainer {
-    /* float: left; */
+    padding-bottom: 450px;
+    padding-left: 160px;
 }
 
 header img {
     width: 500px;
     height: 200px;
+    /* padding-bottom: 200px; */
 }
 
 #titleHeader {
