@@ -14,17 +14,75 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    /* width: 100%; */
+    
 }
 
-.videoSrc {
-    width: 960px;
-    height: 480px; 
+video {
+    width: 1525px;
+    height: 1100px;
+     
 }
 
 .headerContainer, .scoreContainer, .buttonContainer, .story_rulesContainer, .footContainer {
     z-index: 1;
 }
+
+/* Header GIF styles */
+
+.headerContainer {
+    /* float: left; */
+}
+
+header img {
+    width: 500px;
+    height: 200px;
+}
+
+#titleHeader {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    display: -ms-inline-flexbox;
+    background-color: #d80216;
+
+}
+
+
+
+
+
+
+/* Emerald Styles */
+
+.buttonContainer {
+    display: inline-block;
+}
+
+.emeraldButtons {
+    width: 10px;
+    height: 10px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+section div button img {
+    height: 50px;
+    width: 50px;
+    /* align-content: center;  */
+    /* position: absolute; */
+}
+
+
+#redEmerald {
+    float: left;
+}
+
 
 
 
