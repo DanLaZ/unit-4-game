@@ -160,7 +160,34 @@ section div button img {
 
 
 
+/* Footer Styles */
+/*------------------------------*/
+footer {
+    background-color: #6678e1;
+    padding-left: 30px;
+    bottom: 0px;
+    text-align: center;
+    position: absolute;
+    height: 100px;
+}
 
+footer p {
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    color: white;
+    padding-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a ion-icon {
+    color: black;
+    height: 40px;
+    width: 50px;
+    margin: 0 15px;
+}
 
 
 
