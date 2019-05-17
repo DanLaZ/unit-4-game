@@ -42,8 +42,36 @@ Design End
 <!-------->
 
 
-JavaScript Logic
-<!-------------->
+JavaScript Logic Start
+<!-------------------->
+
+* Global vars *
+* ---------------- *
+- 4 vars needed to store emerald(gem) values -
+
+* Needed Functions *
+* ----------------- * 
+1.randomGemNum 
+
+2.randomGoalNum
+
+3.addToUserNum
+
+4.winLog
+
+5.lossLog
+
+6.endRound
+
+7.startRound
+
+
+
+
+
+
+
+
 
 
 
