@@ -108,6 +108,19 @@ section div h2 {
     text-align: center;
 }
 
+#userNum, #goalNum {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: white;
+    background-color: #6678e1;
+    width: 100px;
+    height: 25px;
+    padding-top: 10px;
+    border-color: #6678e1;
+    border-radius: 10%;
+    text-align: center;
+}
+
 #losses {
     width: 120px;
 }
@@ -125,7 +138,7 @@ section div h2 {
 
 #redEmerald, #blueEmerald, #greenEmerald, #purpleEmerald {
     position: absolute;
-    Margin: 20px;
+    Margin: 30px;
 }
 
 button {
