@@ -47,23 +47,31 @@ JavaScript Logic Start
 
 * Global vars *
 * ---------------- *
-- 4 vars needed to store emerald(gem) values -
+- 6 vars needed to store emerald(gem) values and wins/losses -
 
 * Needed Functions *
 * ----------------- * 
-1.randomGemNum 
+1.randomGemNum
+- do Math.floor(Math.random) to get a number for the gems. -
 
 2.randomGoalNum
+- do Math.floor(Math.random) to get a number for the goal number. -
+
+- then append it so that it shows up on the page. -
 
 3.addToUserNum
+- updates the user's total number when user clicks on a gem. -
+- use emerald(gem) vairables that have the value from the randomGemNum fuction. -
 
-4.winLog
+4.userTotalNum
+- This function adds to the user's total number. -
 
-5.lossLog
+5.winLog
 
-6.endRound
+6.lossLog
 
 7.startRound
+- when the winLog or lossLog functions are ran the game starts over. -
 
 
 
